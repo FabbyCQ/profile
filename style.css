@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Merriweather:700&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+h1,h2 {
+  font-family:  'Merriweather', serif;
+}
+
+a {
+  color: rgb(100,100,100);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(10,10,10);
+}
+
+/* div {
+  width: 800px;
+  margin: 32px auto;
+  background-color: rgb(250,250,250);
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 10px 10px 30px rgba(0,0,0,.5);
+  padding: 10px;
+  line-height: 1.6;
+} */
+
+.container {
+  margin: 0px auto ;
+  background-color: rgb(250,250,250);
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.5);
+  padding: 5px;
+
+}
+
+.card {
+  margin: 20px 200px;
+  margin-bottom: 0;
+  border: 1px rgba(100,100,100,.5) solid;
+  border-radius: 8px;
+  box-shadow: 10px 10px 30px rgba(100,100,100,.5);
+  padding: 5px;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+  margin: 32px 32px ;
+}
+
+.fab {
+  font-size: 48px;
+}
+
+.img-cicle {
+  width: 387px;
+  border-radius: 50%;
+}
+
+#btn-primary {
+  padding: 16px 32px;
+  border-radius: 4px;
+  margin-top: 16px;
+  display: inline-block;
+  border: 1px solid rgba(0,0,0,.5) ;
+}
+
+#btn-primary:hover{
+  color: rgb(250,250,250);
+  background-color: rgba(0,0,0,.5);
+}
+
+
+#title_description {
+  font-size: 26px;
+}
+
+p {
+  font-size: 16px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
